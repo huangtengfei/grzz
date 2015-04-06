@@ -6,74 +6,26 @@ angular.module('grzzApp.services',  ['ngResource']).
             list: {
                 method: 'GET',
                 params: {
-                    path1: '',
-                    path2: '',
-                    path3: 'list'
+
                 },
                 isArray: true
             },
             create: {
                 method: 'POST',
                 params: {
-                    path1: '',
-                    path2: '',
-                    path3: 'create'
-                }
-            },
-            getFollowers: {
-                method: 'GET',
-                params: {
-                    path1: '',
-                    path2: '',
-                    path3: 'getFollowers'
-                },
-                isArray: true
-            },
-            getFollowings: {
-                method: 'GET',
-                params: {
-                    path1: '',
-                    path2: '',
-                    path3: 'getFollowings'
-                },
-                isArray: true
-            },
-            follow: {
-                method: 'POST',
-                params: {
-                    path1: '',
-                    path2: 'follow',
-                    path3: ''
-                }
-            },
-            cancelFollow: {
-                method: 'POST',
-                params: {
-                    path1: '',
-                    path2: 'cancelFollow',
-                    path3: ''
-                }
-            },
-            update: {
-                method: 'PUT',
-                params: {
-                    path1: '',
-                    path2: '',
-                    path3: ''
+
                 }
             },
             login: {
                 method: 'POST',
                 params: {
-                    path2: 'login'
+
                 }
             },
             register: {
                 method: 'POST',
                 params: {
-                    path1: '',
-                    path2: 'register',
-                    path3: ''
+                    
                 }
             }
         })
